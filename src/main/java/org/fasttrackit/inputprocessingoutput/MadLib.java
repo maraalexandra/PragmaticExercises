@@ -11,8 +11,10 @@ public class MadLib {
 
 
         public static void main(String[] args) {
-     System.out.println("Enter noun: " + noun + "\n" + "Enter verb: " + verb + "\n" + "Enter an adjective: " + adjective + "\n" + "Enter an adverb: "+ adverb + "\n" + "Do you " +  verb + " your " +  adjective  + " " +  noun + " " +  adverb  + "?" + "That's hilarious!");
-    }
+            System.out.println("Enter noun: " + noun + "\n" + "Enter verb: " + verb + "\n" +
+                    "Enter an adjective: " + adjective + "\n" + "Enter an adverb: " + adverb + "\n" +
+                    "Do you " + verb + " your " + adjective + " " + noun + " " + adverb + "?" + "That's hilarious!");
+        }
 
 
 
