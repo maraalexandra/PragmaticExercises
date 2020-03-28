@@ -1,13 +1,24 @@
 package org.fasttrackit.inputprocessingoutput;
 
+import java.util.Scanner;
+
 public class PrintingQuotes {
 
- public static String authorName = "Obi-Wan Kenobi";
- public static String quote = "These aren't  the droids you're looking for";
+
+
 
  public static void main( String[] args ) {
+   String quote = "These aren't  the droids you're looking for";
 
-  System.out.println("What is the quote?" + PrintingQuotes.quote + "\n"+ " Who said it? " + PrintingQuotes.authorName + "\n" + PrintingQuotes.authorName + " says " +  PrintingQuotes.quote  );
+   System.out.println("What is the quote?" + quote + "\n"+ " Who said it? ");
+   Scanner scanner = new Scanner(System.in);
+   String userInput = scanner.nextLine();
+
+  System.out.println(userInput + " says, " + quote);
+
+
+
+
 
  }
 
