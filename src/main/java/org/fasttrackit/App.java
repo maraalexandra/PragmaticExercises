@@ -13,6 +13,11 @@ public class App
         numbers.getSum(3, 5);
         numbers.getDif(5, 3);
 
+        numbers.getSum(13.5, 4.7);
+        numbers.getdif(12.6, 7.9);
+
     }
+
+
 }
 
