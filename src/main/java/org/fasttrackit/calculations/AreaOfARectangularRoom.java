@@ -12,10 +12,10 @@ public class AreaOfARectangularRoom {
         int length = scanner.nextInt();
         System.out.println("What is the width of the room in feet?");
         int width = scanner.nextInt();
-
-
-
-    }
-
+        double feetX2 = length * width;
+        double area = length * width;
+        double meters = feetX2 * 0.09290304;
+        System.out.println("Area of the room is " + "\n" + area + "square feet" + "\n" + meters + "square meters" );
 }
 
+}
