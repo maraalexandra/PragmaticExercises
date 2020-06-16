@@ -26,7 +26,9 @@ public class App
 //        LogicalOp.parityNumbers();
 //        LogicalOp.imparityNumbers();
       //  LogicalOp.sumOfNumbers(90);
-        LogicalOp.averageCalculator(90);
+      //  LogicalOp.averageCalculator(90);
+
+        LogicalOp.asteriskCount();
 
     }
 
